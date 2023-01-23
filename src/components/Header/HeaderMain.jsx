@@ -55,12 +55,10 @@ const HeaderMain = ({activeBurger, setActiveBurger}) => {
                         </li>
                     </ul>
                 </nav>
-                <div className="reg_menu">
-                    <NavLink to="/registration" className="registration">Регистрация</NavLink>
-                    <div className="btn_wrapper">
-                        <button className="enter_btn btn">Вход</button>
-                    </div>
+                <div className="forward-to-app">
+                    <a href="#" className="go-app-btn btn">Перейти в приложение</a>
                 </div>
+
             </div>
         </header>
     )

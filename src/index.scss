@@ -161,28 +161,38 @@ a:active, a:focus { outline: none; }
       left: 0;
     }
   }
-  .reg_menu{
-    display: flex;
-    align-items: center;
-    margin-left: auto;
+  .forward-to-app{
     order: 3;
-    .registration{
-      color: #4466DF;
-      margin-right: 26px;
-      padding-bottom: 2px;
-      @media (max-width: 415px) {
-        margin-right: 10px;
-      }
-      &.active{
-        border-bottom: 2px solid #4466DF;
-      }
-    }
-    .enter_btn{
+    margin-left: auto;
+    .go-app-btn{
+      color: #FFFFFF;
       display: inline-block;
       line-height: 30px;
-      padding: 0 38px;
+      padding: 0 30px;
     }
   }
+  //.reg_menu{
+  //  display: flex;
+  //  align-items: center;
+  //  margin-left: auto;
+  //  order: 3;
+  //  .registration{
+  //    color: #4466DF;
+  //    margin-right: 26px;
+  //    padding-bottom: 2px;
+  //    @media (max-width: 415px) {
+  //      margin-right: 10px;
+  //    }
+  //    &.active{
+  //      border-bottom: 2px solid #4466DF;
+  //    }
+  //  }
+  //  .enter_btn{
+  //    display: inline-block;
+  //    line-height: 30px;
+  //    padding: 0 38px;
+  //  }
+  //}
   @media (max-width: 992px) {
     .burger.active_burger:before{
       transform: rotate(-45deg) ;
